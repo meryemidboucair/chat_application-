@@ -1,0 +1,65 @@
+*, *::before, *::after {
+     
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    font-family: 'Tw cen Mt';
+    font-size: 14 px;
+}
+
+
+
+
+
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 100 vh;
+background: url('0c1824.png') center center no-repeat ;
+background-size: cover;
+z-index: -100;
+}
+ header{
+    max-width: 88%;
+    margin-right:auto;
+    margin-left:auto;
+ }
+ nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 30 px 0 10px;
+
+ }
+ nav.logo {
+    width: 170px;
+
+ }
+
+ nav ul {
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px;
+
+ }
+  nav ul il {
+    list-style: none;
+    margin-left:5 px;
+  }
+ nav ul il a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color .3s;
+ }
+
+ nav ul il a:hover{
+    color:blue;
+ }
